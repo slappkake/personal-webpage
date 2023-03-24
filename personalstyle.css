@@ -69,13 +69,15 @@ footer {
     padding: 0px;
     bottom: 0;
     width: 99%;
-    position: absolute;
+    position: fixed;
     text-align: center;
     font-size: 13px;
 }
 body 
 {
-    font-family: Helvetica, Arial, "sans-serif"
+    font-family: Helvetica, Arial, "sans-serif";
+    overflow: hidden;
+    overflow-y: scroll;
 }
 section
 {
