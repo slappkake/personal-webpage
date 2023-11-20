@@ -1,0 +1,90 @@
+body {
+
+    /* background-size: cover; */
+    /* background-position: center; */
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    font-family: 'Montserrat';
+    background-color: rgba(0, 0, 0, 0.5); 
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000; /* Make sure the navbar is above the background */
+}
+
+.navbar-logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-links li {
+    margin-right: 20px;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+    color: #f39c12; /* Change color on hover */
+}
+
+.content {
+    padding: 50px 20px;
+    color: white; 
+    text-align: center;
+}
+
+.navbar-logo a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.navbar-logo a:hover{
+    color: #f39c12;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333; /* Background color for the footer */
+    color: white; /* Text color */
+    padding: 20px; /* Padding around the content */
+    text-align: center; /* Center-align the text */
+}
+
+footer p {
+    margin: 0; /* Remove default margin */
+    font-size: 14px; /* Font size for the text */
+}
+
+
+section
+{
+    color: black; 
+    background-color: whitesmoke;
+    margin: auto;
+    max-width: 1000px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+    padding-left: 125px;
+    padding-right: 125px;
+    border-radius: 20px;
+}
+section p
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}

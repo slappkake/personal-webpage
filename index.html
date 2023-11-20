@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+<link rel="stylesheet" href="style.css">
+
+<link rel="preload" href="backg1.jpg" as="image" link/>
+<link rel="preload" href="backg2.jpg" as="image" link/>
+<link rel="preload" href="backg3.jpg" as="image" link/>
+<link rel="preload" href="backg4.jpg" as="image" link/>
+<link rel="preload" href="backg6.jpg" as="image" link/>
+
+<style>
+
+.button a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    transition: color 0.3s;
+    color: white;
+}
+
+.button a:hover {
+    color: #f39c12; /* Change to your desired hover color */
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-size: 1550px 900px;
+    
+    background-position: center;
+    background-position: top;
+    background-repeat: no-repeat;
+    animation: changeBackground 180s infinite;
+    /* background-image: url('aquarium.jpg');  */
+}
+@keyframes changeBackground {
+    0% {
+      background-image: url('backg1.jpg');
+    }
+    10% {
+      background-image: url('backg1.jpg');
+    }
+    20% {
+      background-image: url('backg2.jpg');
+    }
+    30% {
+      background-image: url('backg2.jpg');
+    }
+    40% {
+      background-image: url('backg3.jpg');
+    }
+    50% {
+      background-image: url('backg3.jpg');
+    }
+    70% {
+      background-image: url('backg4.jpg');
+    }
+    80% {
+      background-image: url('backg4.jpg');
+    }
+    90% {
+      background-image: url('backg6.jpg');
+    }
+    95% {
+      background-image: url('backg6.jpg');
+    }
+    100% {
+      background-image: url('backg1.jpg');
+    }
+  }
+
+
+html {
+    overflow-anchor: none;
+    scroll-behavior: smooth;
+}
+main{
+    background-image: url('backg5.jpg');
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hello-animation::before {
+    content: "Hello";
+    animation: helloAnimation 20s infinite;
+}
+h1{
+    font-family: 'Montserrat';
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+@keyframes helloAnimation {
+    4%{
+        content: "Hello";
+        opacity: 1;
+    }
+    8%{
+      opacity: 0;
+    }
+    15%{
+        content: "Hola";
+        opacity: 1;
+    }
+    19%{
+      opacity: 0;
+    }
+    26% {
+      content: "Bonjour";
+      opacity: 1;
+    }
+    30%{
+      opacity: 0;
+    }
+    37%{
+        content: "你好";
+        opacity: 1;
+    }
+    41%{
+      opacity: 0;
+    }
+    48%{
+        content: "Ciao";
+        opacity: 1;
+    }
+    52%{
+      opacity: 0;
+    }
+    59% {
+      content: "Olá";
+      opacity: 1;
+    }
+    63%{
+      opacity: 0;
+    }
+    70%{
+        content: "Привет";
+        opacity: 1;
+    }
+    74%{
+      opacity: 0;
+    }
+    81%{
+        content: "Hola";
+        opacity: 1;
+    }
+    85%{
+      opacity: 0;
+    }
+    92% {
+      content: "안녕하세요";
+      opacity: 1;
+    }
+    100%{
+      opacity: 0;
+    }
+
+
+  }
+</style>
+</head>
+<body style="height: 500px;">
+<div class="navbar" id="navbar">
+  <div class="navbar-logo" style="padding-left: 45px;"><a href="index.html">William C. Xia</a></div>
+  <ul class="navbar-links">
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="Resume.html">Resume</a></li>
+    <li style="padding-right: 70px;"> <a href="photography.html">Photography</a></li>
+  </ul>
+</div>
+<div class="content">
+    <h1 class ="hello-animation" style="height: 30px; font-size: 100;"></h1>
+    <h1>Welcome to My Website!</h1>
+    <div style="height: 215px;"></div>
+    <h2  class ="button" style="transform: scaleY(0.4); font-size: 85px;"><a href="#welcome">V</a></h2>
+    </div>
+<div style="height: 105px;"></div>
+</body>
+<main>
+    <h2  class ="button" style="transform: scaleY(0.4); font-size: 100px; padding: 0; margin:0;"><a href="#navbar">^</a></h2>
+    <section id="welcome">
+        <br>
+        <h2>Thanks for visiting my Website!</h2>
+        <p>Hi, I'm Will Xia, and this is my personal website! 
+        I'm a Computer Science undergrad based in the Boston area.
+        On this website, you can find more information about me, my work, and my interests. 
+        Feel free to explore and get in touch if you have any questions.</p>
+        <br>
+    </section>
+    <div style="height: 20px;"></div>
+    <section id="about">
+        <br>
+        <h2>About Me</h2>
+        <p>I'm currently enrolled in the Tufts School of Engineering as a Computer Science major 
+        and Entrepreneurship Minor. My graduation year is 2025. I have not decided on a particular concentration 
+        within CS, but I am currently interested in networking and web design. I'm pursuing Entrepreneurship 
+        to understand what goes into making a successful company.  I believe that the financial skills I learn 
+        from Entrepreneurship will be very helpful in my career and life, even if no opportunity arises to 
+        start my business.</p>
+
+        <p>In my free time, I enjoy going to the <a href="3day_routine.png" target="_blank">gym</a>.
+        I also like playing games. The games I enjoy the most right now are 
+        <a href="https://www.op.gg/summoners/na/slappkake?" target="_blank">League of Legends</a> and Magic the Gathering.</p>
+
+        <p>I also enjoy taking photos, I'm currently enrolled in a Digital Photography course. You can find a collection of my personal scanned 
+        polaroids <a href="https://vsco.co/willl-xia/gallery" target="_blank">here</a> and a collection of my digital photography course projects 
+        <a href="https://drive.google.com/drive/folders/1nlQw72yY938lPK_HkgN2PXFjRzpZSJvK?usp=sharing" target="_blank">here</a>.</p>
+        <br>
+    </section>
+    <div style="height: 65px;"></div>
+</main>
+<footer>
+    <p>Last updated on 8/14/2023</p>
+</footer>
+</html>
